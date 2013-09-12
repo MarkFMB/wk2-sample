@@ -18,11 +18,11 @@ countryName1 = 'USA';
 countryName2 = 'India';
 currencyName1 = 'dollars';
 currencyName2 = 'rupees';
-conversionRate = 66.01
+conversionRate = 66.01;
 
 // Calculate conversion
 
-document.getElementById('calculateButton').onClick = function () {
+document.getElementById('calculateButton').onclick = function () {
 	// get user's input
 	amount1 = document.getElementById('amount1').value;
 	// calculate the result
